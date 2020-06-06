@@ -10,4 +10,5 @@
   <view class="usermotto">
     <text class="user-motto">Hello {{userInfo.nickName || ''}}</text>
   </view>
+  <map class="tenc-map" wx:if="{{locationInfo.longitude}}" longitude="{{locationInfo.longitude}}" latitude="{{locationInfo.latitude}}"></map>
 </view>
